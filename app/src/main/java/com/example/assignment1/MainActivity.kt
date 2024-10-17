@@ -140,8 +140,8 @@ fun MainFunction(){
     val playerViewModel: PlayerViewModel = viewModel() //view model instance
     //List of navbar items
     val navListItem = listOf(
-        NavItem(label = "Players",icon = Icons.Default.Person,screen = Screen.PlayerList),
         NavItem(label = "Home",icon = Icons.Default.Home,screen = Screen.Home),
+        NavItem(label = "Players",icon = Icons.Default.Person,screen = Screen.PlayerList),
         NavItem(label = "Favourites",icon = Icons.Default.Star,screen = Screen.FavouritePlayers),
         NavItem(label = "Trophies",icon = Trophy,screen = Screen.TeamAchievements)
     )
